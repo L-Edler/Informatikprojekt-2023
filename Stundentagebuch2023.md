@@ -18,3 +18,5 @@ In der ersten Stunde nach den Ferien haben wir Anfangs die Noten für das vergan
 
 
 ### <a name="2"></a> Mittwoch, der 11.01.2023
+
+In der zweiten Stunde 
