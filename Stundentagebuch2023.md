@@ -1,4 +1,4 @@
-<h3 id="kapitel1"> Stundenprotokoll</a></h2></li>
+h3 id="kapitel1"> Stundenprotokoll</a></h2></li>
 
 [1. Dienstag, der 10.01.2023](#1)
 
@@ -20,4 +20,15 @@ In der ersten Stunde nach den Ferien haben wir Anfangs die Noten für das vergan
 ### <a name="2"></a> Mittwoch, der 11.01.2023
 
 In der zweiten Stunde habe ich mich um Ideen für ein neues Greenfootprojekt gekümmert. Da Greenfoot umfangreiche möglichkeiten bietet, war es schwer sich sofort zu entscheiden. Ich habe mir aber das Ziel gesetzt, ein Spiel zu programmieren, welches umfangreicher ist als mein erstes. Es sollten möglichst mehr Level vorhanden sein.
-Außerdem mag ich Möpse.
+
+
+### <a name="3"></a> Dienstag, der 17.01.2023
+  
+Heute habe ich lediglich damit beschäftigt nach Ideen für mein Spiel zusuchen. Ich habe mich auf Youtube und im Greenfoot Forum informiert. Ein Jump&Run Spiel kommt für mich nicht nocheinmal in frage. Meine überlegungen gehen eher in Richtung "PacMan"
+  
+
+### <a name="4"></a> Mittwoch, der 18.02.2023
+
+In meinem Spiel, 
+  
+  
