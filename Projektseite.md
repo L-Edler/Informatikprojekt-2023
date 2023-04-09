@@ -64,6 +64,7 @@ Da es jedoch relativ Mühsam wäre jedes Objekt einzeln per Hand einzusetzen und
 Blicken wir einmal in den Greenfoot-Code, sehen wir das der Zaehler nun auf einem bestimmten X bzw. Y Level, im Abstand von 40 (zaehler +40) zaehlt. Nun wird ihm außerdem mitgeteilt, dass für jeden Zaehler eine "Wall" eingefügt werden soll. 
 
 ![Screenshot (20)](https://user-images.githubusercontent.com/111414185/230774530-9d054717-ee34-4b26-96b4-2eb12e6375c7.png)
+(World, 1. Level)
 
 Rot makiert ist hier einmal exemplarisch eine solche Reihe, welche druch eine Zählerschleife erstellt wurde.   
 
