@@ -48,41 +48,57 @@ Wie in der letzen Stunde begonnen, habe ich mich heute wieder mit den Hinderniss
 
 Heute habe ich mich mit dem Aufbau meiner Spielwelt beschäftigt. Ich habe mir ersteinmal überlegt, wie das Labyrinth ausehen soll. Ich habe begonnen, die Hindernisse so anzuordnen, das es am Ende das Muster meines Labyrinthes ergibt, welches ich anfangs einmal extra gezeichnet habe. 
 
-Mittwoch, der 08.02.2023
+### <a name="9"></a> Mittwoch, der 08.02.2023
 
 In der ersten Stunde des neues Halbjahres, habe ich weiter an dem Aufbau meines labyrinthes/Spielwelt gearbeitet. Dabei musste ich den ersten Rückschlag einstecken. Zum einen hatte ich Probleme die exakten korrdinaten herraus zufinden, die ich brauche, damit alles Symetrisch und gerade asussieht. Die genauen Koordinaten zu ermittlen ist nämlich sehr Mühsam, da ich die Hindernisse immer minimal weiter verschieben muss. 
 
-Freitag, der 10.02.2023 
+### <a name="10"></a> Freitag, der 10.02.2023 
 
 In der ersten Freitagsstunde, habe ich mich weiter mit dem Problem des Aufbaues beschäftigt. Außerdem ist das Problem aufgetreten, dass die einzelnen Hindernisse, alle für sich im Pixeleditor erstellen. Da ich hier jetzt schon einige Probleme aufgetreten sind, habe ich mich im Internet nach alternativ Lösungen umgeschaut. 
 
-Mittwoch, der 15.02.2023 
+### <a name="11"></a> Mittwoch, der 15.02.2023 
 
 Heute habe ich mich weiter mit der Lösung meines Problems beschäftigt. Ich habe mich im Internet und direkt über Greenfoot über einen Weg informiert, der mein Problem lösen würde. Hier geht es darum, ein einziges Objekt zu erstellen, was dann mittels einer Zählerschleife ganz oft eingefügt wird udn auch nur an zugewiesenen Koordinaten. 
 
-Mittwoch, der 22.02.2023 
+### <a name="12"></a> Mittwoch, der 22.02.2023 
 
 Nachdem ich mich ausgiebig über die neue Methode informiert habe, habe ich mich nun entschieden sie auch in mein Spiel zu implementieren. 
 Am Anfang habe ich erstmal etwas geübt und dann schon die erste Wand eingefügt, bestehend aus einer bestimmten Anzahl an den einheitlichen Objekten. Außerdem genau über die entsprechende länge und nur an den richtigen Koordinaten. 
 
-Freitag, der 24.02.2023 
+### <a name="13"></a> Freitag, der 24.02.2023 
 
 Nachdem ich nun erfahren habe, wie das erstellen des Labyrinths effektiv funktioniert, habe ich die Welt heute aufgebaut, ich habe mir verschiedene Muster angesehen und mir überlegt, wie es am Sinnvolsten wäre, damit auch das Spielen später, auch unter einbeziehung der Gegner, funktioniert.
 
-Mittwoch, der 01.03.2023 
+### <a name="14"></a> Mittwoch, der 01.03.2023 
 
 In der heutigen Stunde habe ich mich für ein entgültiges Muster entschieden und meine Welt weiter erstellt. Da ich relativ viele Zählerschleifen einfügen muss, welche später in der Projektseite erläutert werden, dauert dies noch etwas länger und ich muss vermutlich auch Freitag noch weiter arbeiten. 
 
-Freitag, der 03.03.2023
+### <a name="15"></a> Freitag, der 03.03.2023
 
 Wie Mittwoch schon vermutet, habe ich heute lediglich meine Welt zuende erstelt.
 
-Mittwoch, der 08.03.2023
+### <a name="16"></a> Mittwoch, der 08.03.2023
 
 Nachdem die Welt ferig erstellt wurde, habe ich heute angefangen einen Spieler zu erstellen, der sich innerhalb des Labyrinths bewegen kann. Da ich schon einige Erfahrungen habe,da das erstellen eines Spielers nicht alzu schwierig und ich habe auch nur die eine Stunde gebraucht. 
 
-Freitag, der 10.03.2023
+### <a name="17"></a> Freitag, der 10.03.2023
 
 Damit das Spiel auch etwas schwieriger wird, habe ich huete Gegner enigefügt. Die Gegner sollen sich auf festen bahnen innerhalb des Labyrinthes bewegen, wärend der Spieler bestimmte Objekte einsammelt, damit er gewinnen kann. 
 Um also das einsammlen dieser Objekte schwieriger zu machen, habe ich die Gegner eingefügt und ihnen feste Bewegungsbahnen zugeteilt. 
-  
+
+### <a name="18"></a> Mittwoch, der 15.03.2023
+
+Um das Spiel zu gewinnen müssen, wie ich mir schon in der letzten Stunde überlegt habe, alle Objekte eingesammelt werden. Heute habe ich ich also eine Methode erstellt die sich darum kümmert, das eben dies geschieht. Dazu habe ich mir außerdem noch ein Motiv für die Objekte ausgedacht, die eingesammelt werden müssen. 
+
+### <a name="19"></a> Freiatg, der 17.03.2023
+
+Heute habe ich die Gegner fertiggestellt und außerdem begonnen, das zweite Level zu erstellen. Im 2. Level sollen noch mehr Gegner eingeführt werden, die sich in ihren Bewegungsmustern von denen aus dem 1. Level unterscheiden. 
+
+### <a name="20"></a> Freitag, der 24.03.2023 
+
+In der heutigen Stunde habe ich weiter das zweite Level erstellt und am Bewegungsmuster der neuen Gegner gearbeitet. 
+
+### <a name="21"></a> Freitag, der 31.03.2023 
+
+Nachdem ich in der letzten Stunde das 2. Level fertig gemacht habe, habe ich heute nur noch kleine Dinge verändert und den Code etwas in seiner Form "verschönert". 
+Nun gab es nichts weiter zutun, was das Programm des Spiels betrifft. Somit hatte ich Zeit weiter an meiner Projektseite zuarbeiten, die ich nun in den nächsten Tagen fertigstellen kann. 
