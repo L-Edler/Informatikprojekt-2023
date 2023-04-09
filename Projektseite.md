@@ -44,6 +44,9 @@ Nun habe ich mich daran gemacht, neue Klassen zu erstellen. Wie dies genau funkt
 
 ### Die Weltklassen <a name="Weltklassen"></a>
 
+#### Die World/World2 Klassen <a name=" Die World/World2 Klassen"></a>
+
+
 Ich habe also nun ersteinmal die Weltklasse erstellt. Da ich mir bereits sicher war, das ich zwei Level in meinem Spiel haben möchte, habe ich direkt zwei Weltklassen erstellt, welche später die beiden Level darstellen. 
 
 ![Screenshot (17)](https://user-images.githubusercontent.com/111414185/230773670-fb3b9abd-fe1a-4571-8902-4b46a9d27d24.png)
@@ -70,6 +73,7 @@ Die Reihen kann man sowohl in X, als auch in Y Richtung erstellen. Möchte man e
 
 Um die Gegner (target-Klasse) einzufügen, habe ich die selbe Methode angewendet. 
 
+#### WIN und END-Klassen <a name="WIN und END-Klassen"></a>
 
 Nun möchte ich auf die WIN und END Klasse eingehen. Diese befassen sich damit, was passiert, wenn der Spieler stirbt oder das Level erfolgreich beendet hat. Beginnen wir mit der "WinClass". Diese wird aufgerufen, wenn der Spieler alle "target" im ersten Level eingesammelt hat. Wie genau das passiert, werde ich erläutern wennich mich mit dem Player befasse. Wenn also die Klasse aufgerufen wird, wird ein Text eingeblendet, der sagt "Press F for lvl 2".
 Im Code der Win Classe wird festgelegt, welche Farbe der Hintergrund (bg) haben soll und welche Maße er hat. Außerdem wird der Schriftzug (String Message) in gewünschter Farbe und Schriftar(Font) dargestellt. 
@@ -87,7 +91,9 @@ Bei dieser Gelegenheit, möchte ich nocheinmal erwähnen, dass alle Methoden imm
 Parallel zu Win gibt es noch Win2 und EndGame. 
 Diese Klassen sind im Aufbau gleich, werden jedoch zu anderen Umständen aufgerufen. Endgame, immer dann wenn der Spieler stirbt. Dann wird außerdem der Schriftzug "GameOver" eingefügt. Und Win2 für das überwinden des 2ten Levels, also wenn alle targets aufgesammelt wurden. Hier heißt es dann "YOU WIN". 
 
-Nun möchte ich auf die Actor-Klassen zu sprechen kommen. 
+### Die Actorklassen <a name="Die Actorklassen"></a> 
+
+#### Test_player <a name="Test_player"></a> 
 
 Über den Actor "Wall" habe ich ja schon ausführlich gesprochen. Nun soll es darum gehen, zu verstehen, wie es gelingt, das weder Spieler noch Gegner über die Wall laufen, sondern sie als Hinderniss wahrnehmen. 
 
@@ -100,12 +106,15 @@ Um die "target" Objekte auch einzusammeln habe ich die "eat" Methode genutzt. Hi
 ![Screenshot (25)](https://user-images.githubusercontent.com/111414185/230779017-3be1cc87-c5d4-4bd9-81cc-4613c2ba8d33.png)
 
 In dieser Methode wird gesagt, dass das Target immer dann aus der Welt entfernt wird, wenn es mit dem Spieler kollidiert. 
+
+#### Enemyklasse <a name="Enemyklasse"></a>
+
 Diese Methode wird so auch in der Enemy-Klasse eingesetzt, nur das hier immer der Spieler entfert wird, wenn er mit dem Enemy kollidiert. 
 Desweiteren wird im unteren Teil der Methode festgelegt, dass die erste "WinClass" eingefügt wird, wenn der Spieler 128 targets eingesammelt hat und wenn er dann auch alle aus dem zweiten Level hat (256) wird der "WIN-Class2" Screen ausgeführt und der Spieler hat gewonnen. 
 
 Die Enemy-Klasse ist nicht sonderlich kompliziert aufgebaut. Sie hat die selbe Kollisions-Methode wie der Test_player (also Spieler) und die gleiche eat-Methode. Hier ist lediglich der Unterschied, dass nicht die WinClass ausgeführt wird, wenn die eat Methode eingreift, sondern die EndGame-Klasse, also wird dem Spieler mitgeteilt, dass er verloren hat. 
 
-
+#### WalterderWaal <a name="WalterderWaal"></a>
 
 Auch die "WalterDerWaal" Klasse ist genau so aufgebaut. Jedoch kann diese Klasse sich auch auf den "Wall" Klassen bewegen, damit es im Spiel etwas schwere wird. Hierzu habe ich einfach die Kollision-Methode weggelassen. (Der Name zu dieser Klasse ist ohne weitern Sinn, er entspringt lediglich meiner spontanen Kreativität.)
 
