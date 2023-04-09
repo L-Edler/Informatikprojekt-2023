@@ -103,6 +103,9 @@ Heute habe ich mich weiter mit der Lösung meines Problems beschäftigt. Ich hab
 Nachdem ich mich ausgiebig über die neue Methode informiert habe, habe ich mich nun entschieden sie auch in mein Spiel zu implementieren. 
 Am Anfang habe ich erstmal etwas geübt und dann schon die erste Wand eingefügt, bestehend aus einer bestimmten Anzahl an den einheitlichen Objekten. Außerdem genau über die entsprechende länge und nur an den richtigen Koordinaten. 
 
+![Screenshot (12)](https://user-images.githubusercontent.com/111414185/230771188-4d3437b4-d300-4265-b0d4-8865c4251097.png)
+
+
 ### <a name="13"></a> Freitag, der 24.02.2023 
 
 Nachdem ich nun erfahren habe, wie das erstellen des Labyrinths effektiv funktioniert, habe ich die Welt heute aufgebaut, ich habe mir verschiedene Muster angesehen und mir überlegt, wie es am Sinnvolsten wäre, damit auch das Spielen später, auch unter einbeziehung der Gegner, funktioniert.
@@ -119,14 +122,25 @@ Wie Mittwoch schon vermutet, habe ich heute lediglich meine Welt zuende erstelt.
 
 Nachdem die Welt ferig erstellt wurde, habe ich heute angefangen einen Spieler zu erstellen, der sich innerhalb des Labyrinths bewegen kann. Da ich schon einige Erfahrungen habe,da das erstellen eines Spielers nicht alzu schwierig und ich habe auch nur die eine Stunde gebraucht. 
 
+![Screenshot (13)](https://user-images.githubusercontent.com/111414185/230771254-eee119e1-9408-47a9-8c03-1082e8d1e16a.png)
+
+![image](https://user-images.githubusercontent.com/111414185/230771294-f7ea1dcf-e079-437f-9765-6d66922a9def.png)
+
+
 ### <a name="17"></a> Freitag, der 10.03.2023
 
 Damit das Spiel auch etwas schwieriger wird, habe ich huete Gegner enigefügt. Die Gegner sollen sich auf festen bahnen innerhalb des Labyrinthes bewegen, wärend der Spieler bestimmte Objekte einsammelt, damit er gewinnen kann. 
 Um also das einsammlen dieser Objekte schwieriger zu machen, habe ich die Gegner eingefügt und ihnen feste Bewegungsbahnen zugeteilt. 
 
+![Screenshot (15)](https://user-images.githubusercontent.com/111414185/230771363-5f0c345a-a6fa-4c03-95c8-f2c04dd4608e.png)
+
+
 ### <a name="18"></a> Mittwoch, der 15.03.2023
 
 Um das Spiel zu gewinnen müssen, wie ich mir schon in der letzten Stunde überlegt habe, alle Objekte eingesammelt werden. Heute habe ich ich also eine Methode erstellt die sich darum kümmert, das eben dies geschieht. Dazu habe ich mir außerdem noch ein Motiv für die Objekte ausgedacht, die eingesammelt werden müssen. 
+
+![Screenshot (16)](https://user-images.githubusercontent.com/111414185/230771775-b97b6182-289e-44af-b016-6d8dd779d94f.png)
+
 
 ### <a name="19"></a> Freiatg, der 17.03.2023
 
