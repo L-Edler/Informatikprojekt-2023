@@ -12,8 +12,6 @@
 
 ## [Fazit](#Fazit)
 
-## [Quellen](#Quellen)
-
 ## [Stundenprotokoll]
  
 
@@ -126,6 +124,19 @@ Sollte nun die "CheckForWall Methode aktiv werden, also der Enemy mit einer Wall
 
 Auch die "WalterDerWaal" Klasse ist genau so aufgebaut. Jedoch kann diese Klasse sich auch auf den "Wall" Klassen bewegen, damit es im Spiel etwas schwere wird. Hierzu habe ich einfach die Kollision-Methode weggelassen. (Der Name zu dieser Klasse ist ohne weitern Sinn, er entspringt lediglich meiner spontanen Kreativität.)
 
+
+## Fazit <a name="Fazit"></a>
+
+Nachdem ich nun auch das zweite Projekt abgeschlossen habe, bin ich recht zufrieden mit meiner Arbeit. Das zweite Projekt ist zwar von der reinen größe des Codes kleiner, aber ich persönlich hatte nochmal mehr arbeit. Besonders das stetige verbinden von Actor und World Klassen hat mir sehr viel Spaß gemacht und durchaus etwas mehr Nachdenken erfordert. Ich konnte mein bereits erlerntes Wissen wieder verwerten und so viel mehr probieren und auch selber schlüssige Methoden entwickeln. Alles in allem habe ich zwar trotzdem noch Ideen für meinem Code aus dem Internet genutzt, aber mir fiel es nun viel einfacher das gesehene zuverstehen und auch weiterzuentwickeln um es für meine eigenen Ideen einzusetzten. Ich finde Greenfoot bringt viel positives, besonders was das selbstständige "erforschen" betrifft. Ich muss mich jedoch auch etwas kritisch zeigen, da das Programm teils sehr oft abstürtzt oder Speicherprobleme hat. Dies macht die Arbeit gearde für unerfahren, für die es ja ursprünglich gemacht wurde, etwas holprig. Trotz man jedoch den Widrigkeiten kann man mit Greenfoot tolle Dinge machen.
+
+## Quellen <a name="Quellen"></a>
+
+Alle Bilder u.ä sind eigenständig entstanden. 
+
+Die Idee für den Code mit der Zählerschleife entstammt aus folgendem Video:
+https://www.youtube.com/watch?v=iJUGQTbjgnQ
+
+## Stundentagebuch <a name= "Stundentagebuch"></a>
 
 
 
