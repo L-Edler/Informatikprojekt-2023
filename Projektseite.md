@@ -113,7 +113,14 @@ In dieser Methode wird gesagt, dass das Target immer dann aus der Welt entfernt 
 Diese Methode wird so auch in der Enemy-Klasse eingesetzt, nur das hier immer der Spieler entfert wird, wenn er mit dem Enemy kollidiert. 
 Desweiteren wird im unteren Teil der Methode festgelegt, dass die erste "WinClass" eingefügt wird, wenn der Spieler 128 targets eingesammelt hat und wenn er dann auch alle aus dem zweiten Level hat (256) wird der "WIN-Class2" Screen ausgeführt und der Spieler hat gewonnen. 
 
+![Screenshot (75)](https://user-images.githubusercontent.com/111414185/230785625-ead6e62b-b0bc-49b6-9ac9-86b9f08f380e.png)
+
+
 Die Enemy-Klasse ist nicht sonderlich kompliziert aufgebaut. Sie hat die selbe Kollisions-Methode wie der Test_player (also Spieler) und die gleiche eat-Methode. Hier ist lediglich der Unterschied, dass nicht die WinClass ausgeführt wird, wenn die eat Methode eingreift, sondern die EndGame-Klasse, also wird dem Spieler mitgeteilt, dass er verloren hat. 
+
+Die BEwegung des Enemy läuftz wie folgtz ab. Alle Actor dieser Klasse bewegen sich in X-Richtung aber nie in Y-Richtung. 
+Mit einer intitialen X Bewegung von 2.
+Sollte nun die "CheckForWall Methode aktiv werden, also der Enemy mit einer Wall kollidiren, ändert sich seine Bewgungsrichtung um 180 Grad aus xRichtung wird -xRichtung.
 
 #### WalterderWaal <a name="WalterderWaal"></a>
 
