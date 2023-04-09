@@ -87,6 +87,31 @@ Bei dieser Gelegenheit, möchte ich nocheinmal erwähnen, dass alle Methoden imm
 Parallel zu Win gibt es noch Win2 und EndGame. 
 Diese Klassen sind im Aufbau gleich, werden jedoch zu anderen Umständen aufgerufen. Endgame, immer dann wenn der Spieler stirbt. Dann wird außerdem der Schriftzug "GameOver" eingefügt. Und Win2 für das überwinden des 2ten Levels, also wenn alle targets aufgesammelt wurden. Hier heißt es dann "YOU WIN". 
 
+Nun möchte ich auf die Actor-Klassen zu sprechen kommen. 
+
+Über den Actor "Wall" habe ich ja schon ausführlich gesprochen. Nun soll es darum gehen, zu verstehen, wie es gelingt, das weder Spieler noch Gegner über die Wall laufen, sondern sie als Hinderniss wahrnehmen. 
+
+Hierzu wede ich eine sog. boolean Methode an. Diese gibt Variablen aus, die entweder den Wert true, oder false haben können. Meine Variable deklariere ich als "kollision". Diese ist immer dann "true" also wahr (also ungleich 0), wenn der Spieler eine Wall berührt. Kommt es zu einer kollision, wird dann ein überschneiden der Beiden Actoren verhindert. (getOneIntersectingObject) So ist es dem Spieler nicht möglich über die Wall zu laufen und er muss erst seine Bewegungsrichtung so ändern, dass es nicht mehr zu einer Kollision kommt. 
+
+![Screenshot (24)](https://user-images.githubusercontent.com/111414185/230778903-bed55783-d424-4634-a503-4f65b7d07a5c.png)
+
+Um die "target" Objekte auch einzusammeln habe ich die "eat" Methode genutzt. Hier habe ich mich an meinem alten Projekt bedient, da dies die effektifste Methode ist und außerdem auch sehr simpel. 
+
+![Screenshot (25)](https://user-images.githubusercontent.com/111414185/230779017-3be1cc87-c5d4-4bd9-81cc-4613c2ba8d33.png)
+
+In dieser Methode wird gesagt, dass das Target immer dann aus der Welt entfernt wird, wenn es mit dem Spieler kollidiert. 
+Diese Methode wird so auch in der Enemy-Klasse eingesetzt, nur das hier immer der Spieler entfert wird, wenn er mit dem Enemy kollidiert. 
+Desweiteren wird im unteren Teil der Methode festgelegt, dass die erste "WinClass" eingefügt wird, wenn der Spieler 128 targets eingesammelt hat und wenn er dann auch alle aus dem zweiten Level hat (256) wird der "WIN-Class2" Screen ausgeführt und der Spieler hat gewonnen. 
+
+Die Enemy-Klasse ist nicht sonderlich kompliziert aufgebaut. Sie hat die selbe Kollisions-Methode wie der Test_player (also Spieler) und die gleiche eat-Methode. Hier ist lediglich der Unterschied, dass nicht die WinClass ausgeführt wird, wenn die eat Methode eingreift, sondern die EndGame-Klasse, also wird dem Spieler mitgeteilt, dass er verloren hat. 
+
+
+
+Auch die "WalterDerWaal" Klasse ist genau so aufgebaut. Jedoch kann diese Klasse sich auch auf den "Wall" Klassen bewegen, damit es im Spiel etwas schwere wird. Hierzu habe ich einfach die Kollision-Methode weggelassen. (Der Name zu dieser Klasse ist ohne weitern Sinn, er entspringt lediglich meiner spontanen Kreativität.)
+
+
+
+
 
 
 
