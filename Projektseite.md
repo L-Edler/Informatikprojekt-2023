@@ -140,7 +140,7 @@ https://www.youtube.com/watch?v=iJUGQTbjgnQ
 
 
 
-
+https://github.com/L-Edler/Informatikprojekt-2023/blob/main/Stundentagebuch2023.md
 
 
 
